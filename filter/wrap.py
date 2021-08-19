@@ -26,7 +26,6 @@ def ultra_super_big_tags_dict():
                 huge_dict[tag].extend(newspaper_dict[tag])
             else:
                 huge_dict[tag]= newspaper_dict[tag]
-    print(huge_dict)
     return huge_dict
 
 def catacory_dict(newspaper):
